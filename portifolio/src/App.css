@@ -1,0 +1,48 @@
+/* src/App.css */
+
+/* Personalizando o Navbar */
+.custom-navbar {
+  background-color: #252525;  /* Alterando o fundo para preto */
+}
+
+.custom-navbar .navbar-brand {
+  color: rgb(17, 255, 0);  /* Alterando a cor da marca (logo) */
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: rgb(17, 255, 0);  /* Alterando a cor da marca (logo) */
+}
+
+.custom-navbar .nav-link {
+  color: rgb(14, 200, 1) !important;  /* Alterando a cor dos links de navegação */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ff00bf !important;  /* Alterando a cor dos links ao passar o mouse */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
