@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Cabecalho from './Componentes/Cabecalho';
-import Sobre from './Componentes/Sobre';
+import QuemSouEu from './Componentes/QuemSouEu';
 import Habilidades from './Componentes/Habilidades';
 import Contato from './Componentes/Contato';
 import Rodape from './Componentes/Rodape';
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Cabecalho />
         <Routes>
-          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/quemSouEu" element={<QuemSouEu />} />
           <Route path="/habilidades" element={<Habilidades />} />
           <Route path="/contato" element={<Contato />} />
         </Routes>

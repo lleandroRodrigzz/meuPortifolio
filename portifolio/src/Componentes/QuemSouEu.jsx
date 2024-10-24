@@ -1,7 +1,7 @@
 import leandroFoto from '../assets/imgs/leandroFoto.jpg'
 import { Button } from 'react-bootstrap';
 
-export default function Sobre(props) {
+export default function QuemSouEu(props) {
     return (
         <section className="sobre-container">
             <div className="texto-container">
@@ -17,13 +17,13 @@ export default function Sobre(props) {
                     href="https://www.instagram.com/lleandro.rodrigzz/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ borderColor: 'transparent', padding: '5px 10px 10px' }}
+                    style={{ borderColor: 'transparent', padding: '10px 10px 20px' }}
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
                         height="30"
-                        fill="green"
+                        fill="#11ff00"
                         className="bi bi-instagram"
                         viewBox="0 0 16 16"
                     >
@@ -38,13 +38,13 @@ export default function Sobre(props) {
                     href="https://github.com/lleandroRodrigzz"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ borderColor: 'transparent', padding: '5px 10px 10px' }}
+                    style={{ borderColor: 'transparent', padding: '10px 10px 20px' }}
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
                         height="30"
-                        fill="green"
+                        fill="#11ff00"
                         className="bi bi-github"
                         viewBox="0 0 16 16"
                     >
@@ -59,7 +59,7 @@ export default function Sobre(props) {
             </div>
 
             <div className="imagem-container">
-                <img src={leandroFoto} style={{ "height": "750px", "width": "450px" }} alt="LeandroFoto" className="sobre-imagem" />
+                <img src={leandroFoto} alt="LeandroFoto" className="sobre-imagem" />
             </div>
         </section>
     );

@@ -7,11 +7,11 @@ export default function Cabecalho(props) {
     return (
         <Navbar expand="lg" className="custom-navbar">
             <Container>
-                <Navbar.Brand as={Link} to="/">Rodrigues.DEV</Navbar.Brand>
+                <Navbar.Brand>Rodrigues.DEV</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto justify-content-center">
-                        <Nav.Link as={Link} to="/sobre">Quem sou eu</Nav.Link>
+                        <Nav.Link as={Link} to="/quemSouEu">Quem sou eu</Nav.Link>
                         <Nav.Link as={Link} to="/habilidades">Habilidades</Nav.Link>
                         <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
                     </Nav>
