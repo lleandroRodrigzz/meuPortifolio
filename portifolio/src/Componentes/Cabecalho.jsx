@@ -11,8 +11,7 @@ export default function Cabecalho(props) {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto justify-content-center">
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
+                        <Nav.Link as={Link} to="/sobre">Quem sou eu</Nav.Link>
                         <Nav.Link as={Link} to="/habilidades">Habilidades</Nav.Link>
                         <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
                     </Nav>

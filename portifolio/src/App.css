@@ -1,8 +1,8 @@
-/* src/App.css */
-
-/* Personalizando o Navbar */
+/*---------------------------------------------src/Cabecalho.css-----------------------------------------*/
 .custom-navbar {
+  font-weight: 800; /* Seminegrio */  /* Normal == 400 */
   background-color: #252525;  /* Alterando o fundo para preto */
+  padding: 10px 0;
 }
 
 .custom-navbar .navbar-brand {
@@ -14,18 +14,25 @@
 }
 
 .custom-navbar .nav-link {
+  margin: 0 15px; /* Adiciona espaço entre os itens */
   color: rgb(14, 200, 1) !important;  /* Alterando a cor dos links de navegação */
 }
 
 .custom-navbar .nav-link:hover {
-  color: #ff00bf !important;  /* Alterando a cor dos links ao passar o mouse */
+  color: rgb(7, 100, 0) !important;  /* Alterando a cor dos links ao passar o mouse */
 }
 
-body {
-  font-family: Arial, sans-serif;
+/*---------------------------------------------Body.css-----------------------------------------*/
+body,html {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600; /* Seminegrio */  /* Normal == 400 */
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #101010;;  /* Alterando o fundo para preto */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Remove barras de rolagem horizontais */
+  overflow-y: hidden; /* Remove barras de rolagem verticais */
 }
 
 section {
@@ -37,12 +44,97 @@ h1 {
   color: #333;
 }
 
+/*---------------------------------------------src/Rodape.css-----------------------------------------*/
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #252525;  /* Alterando o fundo para preto */
+  font-weight: 800; /* Seminegrio */  /* Normal == 400 */
+  color: rgb(17, 255, 0);
   text-align: center;
   padding: 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+/*---------------------------------------------src/Sobre.css-----------------------------------------*/
+.sobre-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden; /* Certifica-se que o conteúdo não irá exceder os limites */
+  overflow-y: hidden; 
+}
+
+.texto-container {
+  max-width: 50%;
+}
+
+.texto-container p:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.texto-container h1 {
+  font-size: 3rem;
+  color: rgb(17, 255, 0); /* cor verde para destaque */
+  margin-bottom: 20px;
+}
+
+.texto-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.texto-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.botoes-container {
+  display: flex;
+  gap: 15px;
+}
+
+.botoes-container button {
+  background-color: rgb(17, 255, 0); /* verde destaque */
+  font-weight: 800; /* Negrito */
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botoes-container button:hover {
+  background-color: rgb(7, 100, 0); /* cor mais escura ao hover */
+}
+
+.imagem-container {
+  max-width: 40%;
+  position: relative;
+  margin-top: -100px;
+  margin-right: 100px;
+}
+
+.sobre-imagem {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.imagem-container::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 120%;
+  height: 120%;
+  background: no-repeat;
+  background-size: contain;
 }
