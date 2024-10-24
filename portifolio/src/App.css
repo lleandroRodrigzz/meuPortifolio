@@ -15,7 +15,7 @@
 
 .custom-navbar .nav-link {
   margin: 0 15px; /* Adiciona espaço entre os itens */
-  color: rgb(14, 200, 1) !important;  /* Alterando a cor dos links de navegação */
+  color: rgb(17, 255, 0) !important;  /* Alterando a cor dos links de navegação */
   position: relative;
   padding-bottom: 0.5rem;
   transition: all 0.3s ease;
@@ -26,7 +26,7 @@
   position: absolute;
   width: 0; /* Largura inicial da linha */
   height: 2px; /* Espessura da linha */
-  background-color: rgb(17, 255, 0);  /* Cor linha */
+  background-color: rgb(255, 255, 255);  /* Cor linha */
   bottom: 0; /* Posiciona a linha na parte inferior do link */
   left: 0; /* Alinha a linha à esquerda */
   transition: width 0.3s ease; /* Animação da largura da linha */
@@ -131,7 +131,7 @@ footer {                                                                /*Rodape
 .imagem-container {
   max-width: 40%;
   position: relative;
-  margin-top: -3.5rem;
+  margin-top: 0rem;
   margin-right: 7rem;
   background: no-repeat;
   position: relative;
