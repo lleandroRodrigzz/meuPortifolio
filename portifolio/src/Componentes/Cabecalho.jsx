@@ -7,7 +7,7 @@ export default function Cabecalho(props) {
     return (
         <Navbar expand="lg" className="custom-navbar">
             <Container>
-                <Navbar.Brand>Rodrigues.DEV</Navbar.Brand>
+                <Navbar.Brand><img src='../../public/icones/iconeLeandro.png' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto justify-content-center">

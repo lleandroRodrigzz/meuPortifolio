@@ -76,7 +76,7 @@ footer {                                                                /*Rodape
   align-items: center;
   padding: 5rem;
   color: white;
-  min-height: 35rem;
+  min-height: 35vh;
   position: relative;
   overflow-x: hidden; 
   overflow-y: hidden; 
@@ -88,29 +88,29 @@ footer {                                                                /*Rodape
 
 .texto-container p:first-child {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 .texto-container h1 {
   font-size: 3rem;
   color: rgb(17, 255, 0); /* cor verde para destaque */
-  margin-bottom: 20px;
+  margin-bottom: 3vh;
 }
 
 .texto-container h2 {
   font-size: 1.8rem;
-  margin-bottom: 20px;
+  margin-bottom: 3vh;
 }
 
 .texto-container p {
   font-size: 1.2rem;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
 }
 
 .botoes-container {
   display: flex;
-  gap: 15px;
+  gap: 1rem;
 }
 
 .botoes-container button {
