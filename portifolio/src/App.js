@@ -6,6 +6,10 @@ import Habilidades from './Componentes/Habilidades';
 import Contato from './Componentes/Contato';
 import Rodape from './Componentes/Rodape';
 
+//https://uiverse.io/elements para Elementos especiais
+//https://icons8.com.br/icons para icones
+//https://www.remove.bg/pt-br remover BG de uma foto qualquer
+
 function App() {
   return (
     <div className="App">

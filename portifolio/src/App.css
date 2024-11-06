@@ -129,9 +129,9 @@ footer {                                                                /*Rodape
 }
 
 .imagem-container {
-  max-width: 40%;
+  max-width: 50%;
   position: relative;
-  margin-top: 0rem;
+  margin-top: 2rem;
   margin-right: 7rem;
   background: no-repeat;
   position: relative;
@@ -139,8 +139,7 @@ footer {                                                                /*Rodape
 }
 
 .sobre-imagem {
-  width: 17rem;
-  height: 1rem;
-  border-radius: 10px;
+  width: 15rem;
   height: auto;
+  border-radius: 10px;
 }
